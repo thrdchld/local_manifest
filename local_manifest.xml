@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Cosmic clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="gitlab" revision="master" clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/xiaomi/vince" name="OctaviOS-Devices/device_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
+ <project path="vendor/xiaomi/vince" name="OctaviOS-Devices/vendor_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
+ <project path="kernel/xiaomi/vince" name="OctaviOS-Devices/kernel_xiaomi_vince" remote="github" revision="13" clone-depth="1" />
+</manifest>
