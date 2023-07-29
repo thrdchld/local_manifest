@@ -6,7 +6,7 @@
         
 <project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="lineage" />
 <!-- VT -->
-<project path="vendor/asus" name="Mevadadarshan1997/proprietary_vendor_asus" remote="ghub" revision="13" />
+<project path="vendor/asus" name="khirendra03/proprietary_vendor_asus" remote="ghub" revision="13" />
 <!-- CT -->
 <project path="device/asus/sdm660-common" name="ManitnjG/android_device_asus_sdm660-common" remote="ghub" revision="13" />
 <!-- KT -->
