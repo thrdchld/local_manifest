@@ -4,7 +4,7 @@
 <remote name="ghub"
         fetch="https://github.com" />
         
-<project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="havoc" />
+<project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="lineage" />
 <!-- VT -->
 <project path="vendor/asus" name="Mevadadarshan1997/proprietary_vendor_asus" remote="ghub" revision="13" />
 <!-- CT -->
