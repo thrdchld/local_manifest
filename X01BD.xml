@@ -5,11 +5,11 @@
         fetch="https://github.com" />
 
 <!-- DT -->
-<project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="lineage" />
+<project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="aosp" />
 <!-- VT -->
-<project path="vendor/asus" name="RT1648/proprietary_vendor_asus" remote="ghub" revision="13" />
+<project path="vendor/asus" name="Mevadadarshan1997/proprietary_vendor_asus" remote="ghub" revision="13" />
 <!-- CT -->
-<project path="device/asus/sdm660-common" name="VoltageOS-Devices/android_device_asus_sdm660-common" remote="ghub" revision="13" />
+<project path="device/asus/sdm660-common" name="Mevadadarshan1997/android_device_asus_sdm660-common" remote="ghub" revision="13" />
 <!-- KT -->
 <project path="kernel/asus/sdm660" name="z3zens/android_kernel_asus_sdm660" remote="ghub" revision="thirteen" />
 
