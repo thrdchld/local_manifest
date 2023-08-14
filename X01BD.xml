@@ -11,6 +11,6 @@
 <!-- CT -->
 <project path="device/asus/sdm660-common" name="VoltageOS-Devices/android_device_asus_sdm660-common" remote="ghub" revision="13" />
 <!-- KT -->
-<project path="kernel/asus/sdm660" name="VoltageOS-Devices/kernel_asus_sdm660" remote="ghub" revision="13" />
+<project path="kernel/asus/sdm660" name="z3zens/android_kernel_asus_sdm660" remote="ghub" revision="thirteen" />
 
 </manifest>
