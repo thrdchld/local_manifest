@@ -11,6 +11,6 @@
 <!-- CT -->
 <project path="device/asus/sdm660-common" name="Mevadadarshan1997/android_device_asus_sdm660-common" remote="ghub" revision="13" />
 <!-- KT -->
-<project path="kernel/asus/sdm660" name="z3zens/android_kernel_asus_sdm660" remote="ghub" revision="thirteen" />
+<project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="ghub" revision="arrow-13.0" />
 
 </manifest>
