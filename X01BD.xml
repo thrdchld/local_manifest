@@ -21,6 +21,8 @@
            
 <remote  name="prcl"
            fetch="https://github.com/kdrag0n" />
+<remote  name="ghub"
+           fetch="https://github.com" />
 
   <!-- Trees -->
     <project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="lineage" />
