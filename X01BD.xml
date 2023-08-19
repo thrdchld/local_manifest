@@ -2,8 +2,6 @@
 <manifest>
 <remote name="darshan" fetch="https://github.com/Mevadadarshan1997" />
 
-<remote name="aosp" fetch="https://android.googlesource.com" />
-
 <remote name="sonal" fetch="https://github.com/ArrowOS-Devices" />
 
 <remote name="all" fetch="https://gitlab.com/anandhan07/" clone-depth="1" />
@@ -13,6 +11,5 @@
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="test" clone-depth="1" />
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="13" clone-depth="1" />
   <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="all" revision="clang-14.0.6" />
-
+  
 </manifest>
