@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote name="darshan" fetch="https://github.com/Mevadadarshan1997" />
 
-<remote  name="khirendra"
-           fetch="https://github.com/khirendra03" />
+<remote name="aosp" fetch="https://android.googlesource.com" />
 
-<remote name="varun" 
-           fetch="https://gitlab.com/GhostMaster69-dev" />
+<remote name="sonal" fetch="https://github.com/ArrowOS-Devices" />
 
-<remote name="volt"
-      	   fetch="https://github.com/karthik1896" />
-
-<remote name="ImSurajxD"
-		   fetch="https://gitlab.com/ImSurajxD" />
-
-<remote name="sonal"
-		   fetch="https://github.com/ArrowOS-Devices" />
-
-<remote  name="compiler"
-           fetch="https://gitlab.com/arrowos-project" />
-           
-<remote  name="prcl"
-           fetch="https://github.com/kdrag0n" />
-<remote  name="ghub"
-           fetch="https://github.com" />
-
+<remote name="all" fetch="https://gitlab.com/anandhan07/" clone-depth="1" />
+<remote name="mani" fetch="https://github.com/manitnjG" clone-depth="1" />
   <!-- Trees -->
-<project path="device/asus/X01BD" name="ManitnjG/New" remote="ghub" revision="lineage" />
-<project path="vendor/asus" name="RT1648/proprietary_vendor_asus" remote="ghub" revision="13" />
-<!-- CT -->
-<project path="device/asus/sdm660-common" name="RT1648/android_device_asus_sdm660-common" remote="ghub" revision="13" />
-<!-- KT -->
-<project path="kernel/asus/sdm660" name="RT1648/android_kernel_asus_sdm660" remote="ghub" revision="lineage-20" />
-	
-  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="release/14.x" remote="varun" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" clone-depth="1" revision="master" remote="prcl" />
-  <!-- Trees -->
+  <project path="device/asus/X01BD" name="new" remote="mani" revision="lineage" clone-depth="1" />
+  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="test" clone-depth="1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="13" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="all" revision="clang-14.0.6" />
 
 </manifest>
