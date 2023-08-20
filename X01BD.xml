@@ -7,7 +7,7 @@
 <remote name="all" fetch="https://gitlab.com/anandhan07/" />
 <remote name="mani" fetch="https://github.com/manitnjG" />
 <remote name="z3" fetch=" https://github.com/z3zens" />
-  <remote name="ki" fetch="https://github.com/khirendra03 " />
+  <remote name="ki" fetch="https://github.com/khirendra03" />
   <!-- Trees -->
   <project path="device/asus/X01BD" name="new" remote="mani" revision="rising" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="ki" revision="13" clone-depth="1" />
