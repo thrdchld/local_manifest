@@ -2,7 +2,12 @@
 <manifest>
   <remote  name="khirendra"
            fetch="https://github.com/khirendra03" />
+<remote  name="darshan"
+           fetch="https://github.com/Mevadadarshan1997" />
 
+<remote  name="dazz"
+           fetch="https://github.com/mevadadarshan19" />
+	
 <remote name="varun" 
            fetch="https://gitlab.com/GhostMaster69-dev" />
 
@@ -24,10 +29,9 @@
            fetch="https://github.com/ManitnjG/" />
   
   <project path="device/asus/X01BD" name="android_device_asus_X01BD" remote="mani" revision="lineage" clone-depth="1" />
-  <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="khirendra" revision="13" clone-depth="1" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="khirendra" revision="13" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="android_kernel_asus_X01BD" remote="sonal" revision="arrow-13.0" clone-depth="1" />
-
+ <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="darshan" revision="13" clone-depth="1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="darshan" revision="13" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="darshan" revision="lineage-20" clone-depth="1" />
   <!-- clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" clone-depth="1" revision="release/14.x" remote="varun" />
   <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="compiler" revision="master" clone-depth="1" />
