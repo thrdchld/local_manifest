@@ -5,9 +5,9 @@
 
         
  <!-- Trees -->
-  <project path="device/asus/X01BD" name="ManitnjG/new" remote="ghub" revision="evox" clone-depth="1" />
+  <project path="device/asus/X01BD" name="ManitnjG/new" remote="ghub" revision="14" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="khirendra03/android_device_asus_sdm660-common" remote="ghub" revision="13" clone-depth="1" />
   <project path="vendor/asus" name="khirendra03/proprietary_vendor_asus" remote="ghub" revision="13" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="khirendra03/android_kernel_asus_sdm660" remote="ghub" revision="13" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="khirendra03/android_kernel_asus_sdm660" remote="ghub" revision="14" clone-depth="1" />
 
 </manifest>
