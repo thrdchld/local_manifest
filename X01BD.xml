@@ -5,9 +5,9 @@
 
         
  <!-- Trees -->
-  <project path="device/asus/X01BD" name="SonalSingh18/android_device_asus_X01BD" remote="ghub" revision="tiramisu" clone-depth="1" />
-  <project path="device/asus/sdm660-common" name="SonalSingh18/android_device_asus_sdm660-common" remote="ghub" revision="arrow-13.0" clone-depth="1" />
-  <project path="vendor/asus" name="SonalSingh18/android_vendor_asus_sdm660" remote="ghub" revision="arrow-13.0" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="SonalSingh18/android_kernel_asus_sdm660" remote="ghub" revision="arrow-13.0" clone-depth="1" />
+  <project path="device/asus/X01BD" name="ManitnjG/device_asus_X01BD1" remote="ghub" revision="eleven" clone-depth="1" />
+  <project path="device/asus/sdm660-common" name="PixelExperience-Devices/device_asus_sdm660-common" remote="ghub" revision="eleven" clone-depth="1" />
+  <project path="vendor/asus" name="vendor-blobs/vendor_asus_X01BD" remote="ghub" revision="eleven" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="PixelExperience-Devices/kernel_asus_sdm660" remote="ghub" revision="eleven" clone-depth="1" />
 
 </manifest>
