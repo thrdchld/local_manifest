@@ -3,9 +3,6 @@
  <remote name="ghub"
         fetch="https://github.com" />
 
-  <remote name="glab"
-        fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
-
         
  <!-- Trees -->
   <project path="device/asus/X01BD" name="ManitnjG/new" remote="ghub" revision="evo14" clone-depth="1" />
