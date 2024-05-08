@@ -5,7 +5,7 @@
 
         
  <!-- Trees -->
-  <project path="device/asus/X01BD" name="ManitnjG/android_device_asus_X01BD-4.19" remote="ghub" revision="evo" clone-depth="1" />
+  <project path="device/asus/X01BD" name="ManitnjG/android-device" remote="ghub" revision="evo" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="RT1648/android_device_asus_sdm660-common" remote="ghub" revision="fourteen" clone-depth="1" />
   <project path="vendor/asus" name="RT1648/proprietary_vendor_asus" remote="ghub" revision="fourteen" clone-depth="1" />
   <project path="kernel/asus/sdm660" name="ellenoireQ/android_kernel_sdm660-4.19" remote="ghub" revision="aosp-stable" clone-depth="1" />
