@@ -6,8 +6,8 @@
         
  <!-- Trees -->
   <project path="device/asus/X01BD" name="ManitnjG/android_device_asus_X01BD-4.19" remote="ghub" revision="evo" clone-depth="1" />
-  <project path="device/asus/sdm660-common" name="SonicBSV/android_device_asus_sdm660-common-4.19" remote="ghub" revision="lineage-21.0" clone-depth="1" />
-  <project path="vendor/asus" name="SonicBSV/proprietary_vendor_asus-4.19" remote="ghub" revision="lineage-21.0" clone-depth="1" />
-  <project path="kernel/asus/sdm660" name="SonicBSV/android_kernel_asus_sdm660-4.19" remote="ghub" revision="master" clone-depth="1" />
+  <project path="device/asus/sdm660-common" name="RT1648/android_device_asus_sdm660-common" remote="ghub" revision="fourteen" clone-depth="1" />
+  <project path="vendor/asus" name="RT1648/proprietary_vendor_asus" remote="ghub" revision="fourteen" clone-depth="1" />
+  <project path="kernel/asus/sdm660" name="ellenoireQ/android_kernel_sdm660-4.19" remote="aosp-stable" revision="master" clone-depth="1" />
 
 </manifest>
