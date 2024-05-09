@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+   <remote name="ghub"
+        fetch="https://github.com" />
+
+        
   <project path="device/asus/X01BD" name="ManitnjG/android-device" remote="ghub" revision="ris" clone-depth="1" />
   <project path="device/asus/sdm660-common" name="RT1648/android_device_asus_sdm660-common" remote="ghub" revision="fourteen" clone-depth="1" />
   <project path="vendor/asus" name="RT1648/proprietary_vendor_asus" remote="ghub" revision="fourteen" clone-depth="1" />
