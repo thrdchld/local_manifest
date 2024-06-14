@@ -14,7 +14,7 @@
    <project path="vendor" name="thrdchld/sign" remote="ghub" revision="14" clone-depth="1" />
 
    <!-- allowlist -->
-   <project path="android/build/soong" name="thrdchld/android_build_soong" remote="ghub" revision="13.0" clone-depth="1" />
+   <project path="build/soong" name="thrdchld/android_build_soong" remote="ghub" revision="13.0" clone-depth="1" />
 
    <!-- clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="glab" revision="master" clone-depth="1" />
